@@ -1,0 +1,23 @@
+@charset "utf-8";
+#view {
+	font-size: 18em;
+	height: 400px;
+}
+#out {
+	min-height: 20px;
+}
+#start {
+	width: 200px;
+}
+#stop {
+	width: 200px;
+}
+#chars {
+	color: gray;
+	writing-mode: tb-rl;
+	-moz-writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-rl;
+}
+.hit {
+	color: red;
+}

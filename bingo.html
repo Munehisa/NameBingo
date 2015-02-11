@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link href="bingo.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="bingo.js"></script>
+	<title>お名前ビンゴゲーム</title>
+</head>
+<body>
+	<header style="text-align:center;">
+		<h1>お名前ビンゴ</h1>
+	</header>
+	<div id="roulette">
+		<section id="main" style="text-align:center;">
+			<div id="view" style="text-align:center;"></div>
+			<hr />
+			<div id="out"></div>
+			<hr />
+			<input type="button" id="start" name="start" value="スタート" onclick="startBingo()">
+			<input type="button" id="stop" name="stop" value="ストップ" onclick="stopBingo()" style="display:none;">
+			<br />
+		</section>
+	</div>
+	<div id="hit">
+		<section id="chars">
+			<div>
+				<span id="あ">あ</span><span id="い">い</span><span id="う">う</span><span id="え">え</span><span id="お">お</span>
+			</div>
+			<div>
+				<span id="か">か</span><span id="き">き</span><span id="く">く</span><span id="け">け</span><span id="こ">こ</span></ br>
+			</div>
+			<div>
+				<span id="さ">さ</span><span id="し">し</span><span id="す">す</span><span id="せ">せ</span><span id="そ">そ</span></ br>
+			</div>
+			<div>
+				<span id="た">た</span><span id="ち">ち</span><span id="つ">つ</span><span id="て">て</span><span id="と">と</span>
+			</div>
+			<div>
+				<span id="な">な</span><span id="に">に</span><span id="ぬ">ぬ</span><span id="ね">ね</span><span id="の">の</span>
+			</div>
+			<div>
+				<span id="は">は</span><span id="ひ">ひ</span><span id="ふ">ふ</span><span id="へ">へ</span><span id="ほ">ほ</span>
+			</div>
+			<div>
+				<span id="ま">ま</span><span id="み">み</span><span id="む">む</span><span id="め">め</span><span id="も">も</span>
+			</div>
+			<div>
+				<span id="や">や</span><span id="ゆ">ゆ</span><span id="よ">よ</span>
+			</div>
+			<div>
+				<span id="ら">ら</span><span id="り">り</span><span id="る">る</span><span id="れ">れ</span><span id="ろ">ろ</span>
+			</div>
+			<div>
+				<span id="わ">わ</span><span id="を">を</span>
+			</div>
+			<div>
+				<span id="ん">ん</span>
+		</section>
+	</div>
+
+	<footer></footer>
+</body>
+</html>
