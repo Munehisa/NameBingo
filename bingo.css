@@ -12,11 +12,19 @@
 #stop {
 	width: 200px;
 }
+#roulette {
+	float: left;
+	width: 80%;
+}
 #chars {
 	color: gray;
 	writing-mode: tb-rl;
 	-moz-writing-mode: vertical-rl;
 	-webkit-writing-mode: vertical-rl;
+}
+#hit {
+	float: right;
+	width: 20%;
 }
 .hit {
 	color: red;
